@@ -1,0 +1,6 @@
+.api{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: auto;
+    grid-column-gap: 50px;
+}

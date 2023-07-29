@@ -1,0 +1,92 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+.apicard-container{
+    height:500px;
+    width:350px;
+    /* background-color: red; */
+    /* border: red solid; */
+}
+
+
+.apicard-img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+.apicard-name-rating{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* background-color: blue; */
+    background-color: #F5F5F5;
+    /* border: blue solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apicard-name{
+    display:flex;
+    padding-left: 15px;
+    /* border: black solid; */
+    width: 110px;
+    justify-content: space-between;
+}
+
+.apicard-brand{
+    font-weight: 700;
+}
+
+.apicard-rating{
+    padding-right: 10px;
+}
+.apicard-rating-rating{
+    background-color: #008000;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    margin-top: 20px;
+    height: 20px;
+    padding-left: 3px;
+}
+
+.fa-star {
+    font-size: 8px;
+}
+
+
+/*description price*/
+
+.apicard-description-price{
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+    align-items: center;
+    border-end-end-radius: 10px;
+}
+
+.apicard-description-description{
+    text-align: left;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 15px;
+    /* border: yellow solid; */
+    
+}
+
+
+.apicard-price{
+    /* border: orange solid; */
+    padding-right: 15px;
+}
+
+.apicard-price-price{
+    /* width: 200px; */
+}
